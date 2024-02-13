@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.root {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F7F9;
+}
+
+.header{
+    padding: 15px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+.footer{
+    height: 100px;
+    background-color: #313131;
+}
+
+.header_menu {
+    display: flex;
+    gap: 0 60px;
+}
+
+.logo {
+    width: 100px;
+
+}
+
+.header_link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4f5665;
+    cursor: pointer;
+}
+
+.header_link:hover {
+    color: #000000;
+}
+
+
+.header_bar {
+
+}
+
+
+.button_main {
+    width: 150px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.button_main-active {
+    border: 1px solid #F53855;
+    color: #F53855;
+}
+
+
+.promo {
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo_container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo_image {
+    width: 580px;
+}
+
+.promo_title {
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.promo_subtitle {
+    margin: 40px 0 0 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.button_submain {
+    width: 150px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: #f53838;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 11px 17px -5px rgba(0, 0, 0, 0.29);
+}
+
+.promo_button {
+    margin: 60px 0 0 0;
+}
