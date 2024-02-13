@@ -117,3 +117,102 @@
 .promo_button {
     margin: 60px 0 0 0;
 }
+
+
+
+
+
+
+
+
+
+.offer {
+    padding: 60px 0 60px 0;
+
+}
+
+.offer_title {
+    font-size: 34px;
+    text-align: center;
+}
+
+.offer_subtitle {
+    padding: 30px 0 0 0;
+    font-size: 18px;
+    color:#4F5665;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+
+}
+
+.offer_container {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content:center ;    
+    gap: 0 100px;
+}
+
+.card {
+    padding: 45px 0 ;
+    border: 1px solid #DDDDDD;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    width: 350px;
+
+}
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_image {
+    width: 150px;
+    
+}
+
+.card_title {
+    margin: 30px 0 0 0;
+    font-size: 20px;
+}
+
+.card_list {
+    margin: 30px 0 0 0;
+    list-style-type: none;
+}
+
+.card_item {
+    display: flex;
+    gap: 0 20px;
+    margin: 10px 0 0 0;
+}
+
+.card_icon {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}
+
+.card_text {
+    color: #4F5665;
+}
+
+.card_bar {
+
+}
+
+.card_price {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+
+.card_button {
+    margin: 20px 0 0 0;
+}
